@@ -32,9 +32,10 @@ body {
     text-decoration: none;
     color: var(--color1);
     text-align: center;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
     position: relative;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .menu li a::after {
     content: "";
@@ -44,7 +45,7 @@ body {
     width: 0;
     height: 1px;
     background-color: var(--color1);
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .menu li a:hover:after {width: 100%;}
 .open-menu , .close-menu {
