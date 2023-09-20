@@ -6,11 +6,13 @@
 body {
     font-family: "Poppins", sans-serif;
     --color1: #FFF ;
-    --color2: rgba(0,0,0,0.5);
+    --color2: rgba(0,0,0,0.1);
     border-color: black;
     background-image: url(./Build/morningsky.webp);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .nav-bar {
     width: 100%;
