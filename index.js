@@ -1,2 +1,2 @@
 const audio = new Audio();
-audio.src = "click.wav"
+audio.src = "./Build/click.wav"
