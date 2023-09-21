@@ -10,7 +10,7 @@ body {
     --color1: rgb(255, 255, 255) ;
     --color2: rgba(0,0,0,0.1);
     border-color: black;
-    background-image: url(./Build/morningsky.webp);
+    background-image: url(./Build/bagro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -96,13 +96,21 @@ body {
     background-color: rgb(0, 0, 0, 0.2);
     border-radius: 15%;
     font-family: 'Inclusive Sans', sans-serif;
+    transition: 0.2s;
     
 }
 
 @media(max-width: 610px){
     .weather-box{
-        width: 280px;
-        height: 380px;
+        width: 350px;
+        height: 600px;
         margin-top: 10%;
+    }
+}
+
+@media(max-width: 325px){
+    .weather-box{
+        width: 300px;
+        height: 350px;
     }
 }
