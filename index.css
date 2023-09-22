@@ -6,9 +6,11 @@
     padding: 0;
 }
 body {
-    font-family: "Nunito", sans-serif;
+    font-family: "Work Sans", sans-serif;
     --color1: rgb(255, 255, 255) ;
-    --color2: rgba(0,0,0,0.1);
+    --color2: #1b1b1e;
+    --color3: #5C75FF;
+    --color4: #fd9be5;
     border-color: black;
     background-image: url(./Build/bagro.jpg);
     background-size: cover;
@@ -25,11 +27,12 @@ body {
     position: relative;
     background-color: var(--color2);
     padding: 12px 20px;
-    margin: 12px;
-    border-radius: 20px;
 }
-
-.logo img{
+.logo-container {
+    display: block;
+    margin: 0 auto;
+}
+.logo-container .logo img{
     width: 50%;
     height: 10%;
 }
@@ -38,17 +41,17 @@ body {
     cursor:pointer;
 }
 
-.menu {display: flex;}
+.menu {display: flex;margin-left:40%;margin-right:5%}
 .menu li {padding-left: 30px;}
 .menu li a {
-    display: inline-block;
+    text-shadow:1px 1px 30px #fd9be4;
+    margin-right:auto;
     text-decoration: none;
-    color: var(--color1);
+    color: var(--color4);
     text-align: center;
     transition: 0.3s ease-in-out;
     position: relative;
-    text-transform: uppercase;
-    font-weight: bold;
+    text-transform: none;
 }
 .menu li a::after {
     content: "";
@@ -57,7 +60,7 @@ body {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: var(--color1);
+    background-color: var(--color3);
     transition: 0.3s ease-in-out;
 }
 .menu li a:hover:after {width: 100%;}
