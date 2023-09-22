@@ -30,10 +30,9 @@ body {
 }
 .logo-container {
     display: block;
-    margin: 0 auto;
 }
 .logo-container .logo img{
-    width: 50%;
+    width: 40%;
     height: 10%;
 }
 
@@ -45,7 +44,7 @@ body {
 .menu li {padding-left: 30px;}
 .menu li a {
     text-shadow:1px 1px 30px #fd9be4;
-    margin-right:auto;
+    margin-right: auto;
     text-decoration: none;
     color: var(--color4);
     text-align: center;
