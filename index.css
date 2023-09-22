@@ -17,7 +17,7 @@ body {
     background-position: center;
 }
 .nav-bar {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,12 +25,17 @@ body {
     position: relative;
     background-color: var(--color2);
     padding: 12px 20px;
-    margin-top: 0 auto;
+    margin: 12px;
+    border-radius: 20px;
 }
 
 .logo img{
     width: 50%;
     height: 10%;
+}
+
+.nav-bar .logo:hover{
+    cursor:pointer;
 }
 
 .menu {display: flex;}
