@@ -6,7 +6,7 @@
     padding: 0;
 }
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito", sans-serif;
     --color1: rgb(255, 255, 255) ;
     --color2: rgba(0,0,0,0.1);
     border-color: black;
@@ -98,7 +98,7 @@ body {
     height: 630px;
     background-color: rgb(0, 0, 0, 0.2);
     border-radius: 15%;
-    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     transition: 0.2s;
     
 }
