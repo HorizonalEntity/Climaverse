@@ -6,7 +6,7 @@
     padding: 0;
 }
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Nunito", sans-serif;
     --color1: rgb(255, 255, 255) ;
     --color2: rgba(0,0,0,0.1);
     border-color: black;
@@ -17,7 +17,7 @@ body {
     background-position: center;
 }
 .nav-bar {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,10 +25,19 @@ body {
     position: relative;
     background-color: var(--color2);
     padding: 12px 20px;
+    margin: 12px;
+    border-radius: 20px;
 }
-.logo img {
-    width: 30%;
+
+.logo img{
+    width: 50%;
+    height: 10%;
 }
+
+.nav-bar .logo:hover{
+    cursor:pointer;
+}
+
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
 .menu li a {
@@ -97,7 +106,7 @@ body {
     height: 630px;
     background-color: rgb(0, 0, 0, 0.2);
     border-radius: 15%;
-    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     transition: 0.2s;
     
 }
