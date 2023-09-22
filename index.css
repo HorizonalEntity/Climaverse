@@ -12,107 +12,49 @@ body {
     --color3: #5C75FF;
     --color4: #fd9be5;
     border-color: black;
-    background-image: url(./Build/bagro.jpg);
+    background-image: linear-gradient(to top, var(--color2), #303036);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
-.nav-bar {
-    width: auto;
+.header {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    list-style: none;
-    position: relative;
-    background-color: var(--color2);
-    padding: 12px 20px;
+    justify-content: center;
+    position: static;
+    background-color: none;
+    padding-top: 12px;
 }
+
 .logo-container {
-    display: block;
-    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
-.logo-container .logo img{
-    width: 50%;
-    height: 10%;
-}
-
-.nav-bar .logo:hover{
-    cursor:pointer;
+.logo img{
+    width: 300px;
+    height: 0 auto;
 }
 
-.menu {display: flex;margin-left:40%;margin-right:5%}
-.menu li {padding-left: 30px;}
-.menu li a {
-    text-shadow:1px 1px 30px #fd9be4;
-    margin-right:auto;
-    text-decoration: none;
-    color: var(--color4);
-    text-align: center;
-    transition: 0.3s ease-in-out;
-    position: relative;
-    text-transform: none;
-}
-.menu li a::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 1px;
-    background-color: var(--color3);
-    transition: 0.3s ease-in-out;
-}
-.menu li a:hover:after {width: 100%;}
-.open-menu , .close-menu {
-    position: absolute;
-    color: var(--color1);
+.logo:hover{
     cursor: pointer;
-    font-size: 1.5rem;
-    display: none;
-}
-.open-menu {
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-.close-menu {
-    top: 20px;
-    right: 20px;
-}
-#check {display: none;}
-@media(max-width: 610px){
-    .menu {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 80%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 100;
-        background-color: var(--color2);
-        transition: all 0.2s ease-in-out;
-    }
-    .menu li {margin-top: 40px;}
-    .menu li a {padding: 10px;}
-    .open-menu , .close-menu {display: block;}
-    #check:checked ~ .menu {right: 0;}
 }
 
-.weather-box{
-    margin: auto;
-    display: flex;
-    margin-top: 1%;
-    width: 540px;
-    height: 630px;
-    background-color: rgb(0, 0, 0, 0.2);
-    border-radius: 15%;
-    font-family: 'Nunito', sans-serif;
-    transition: 0.2s;
-    
+.logo-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer; /* Change the cursor to a pointer on hover */
 }
+
+.logo-container img {
+    transition: filter 0.3s ease; /* Add a smooth transition for the filter effect */
+}
+
+.logo-container:hover img {
+    filter: drop-shadow(0px 2px 10px #fd9be475); /* Apply grayscale effect on hover */
+}
+
 
 @media(max-width: 1380px){
     .weather-box{
