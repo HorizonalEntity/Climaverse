@@ -8,10 +8,11 @@
 body {
     font-family: "Work Sans", sans-serif;
     --color1: rgb(255, 255, 255) ;
-    --color2: #1b1b1e;
+    --color2: #000000;
     --color3: #5C75FF;
     --color4: #fd9be5;
-    border-color: black;
+    --color5: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0,0.2);
     background-image: url(./Build/bagro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,10 +67,11 @@ body {
 .menu li a:hover:after {width: 100%;}
 .open-menu , .close-menu {
     position: absolute;
-    color: var(--color1);
+    color: var(--color5);
     cursor: pointer;
     font-size: 1.5rem;
     display: none;
+    text-shadow: 1px 1px 30px rgb(255, 171, 249);
 }
 .open-menu {
     top: 50%;
