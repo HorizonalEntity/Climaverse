@@ -27,8 +27,7 @@ body {
     padding: 12px 20px;
 }
 .logo img {
-    width: 50%;
-    height: 30%;
+    width: 30%;
 }
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
@@ -128,10 +127,3 @@ body {
         height: 500px;
     }
 }
-
-
-
-
-
-
-
