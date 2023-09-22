@@ -25,10 +25,14 @@ body {
     position: relative;
     background-color: var(--color2);
     padding: 12px 20px;
+    margin-top: 0 auto;
 }
-.logo img {
+.navbar .logo img {
+    position: absolute;
+}
+.logo img{
     width: 50%;
-    height: 30%;
+    height: 10%;
 }
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
