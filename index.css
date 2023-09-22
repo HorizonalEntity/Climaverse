@@ -26,7 +26,10 @@ body {
     background-color: var(--color2);
     padding: 12px 20px;
 }
-.logo img {width: 25px;}
+.logo img {
+    width: 50%;
+    height: 30%;
+}
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
 .menu li a {
