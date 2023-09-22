@@ -27,13 +27,12 @@ body {
     padding: 12px 20px;
     margin-top: 0 auto;
 }
-.navbar .logo img {
-    position: absolute;
-}
+
 .logo img{
     width: 50%;
     height: 10%;
 }
+
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
 .menu li a {
